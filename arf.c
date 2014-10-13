@@ -26,5 +26,15 @@ void show_array(const double ar[], int n) {
 	for (i = 0; i < n; i++)
 		printf("%8.3f ", ar[i]);
 
-	putchar("\n");
+	putchar('\n');
 }
+
+/* multiplies each array member by the same multiplier */
+void mult_array(double ar[], int n, double mult)
+{
+	int i;
+	
+	for (i = 0; i < n; i++)
+		ar[i] *= mult;
+}
+
