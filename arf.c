@@ -1,4 +1,4 @@
-/* Listing 10.14 - arf.c -- array functions */
+/* Listing 10.14: arf.c -- array functions */
 #include <stdio.h>
 #define SIZE 5
 
@@ -20,7 +20,7 @@ int main(void)
 }
 
 /* displays array contents */
-void show_array(const double ar[], int n) {
+void show_array(const double *ar, int n) {
 	int i;
 
 	for (i = 0; i < n; i++)
