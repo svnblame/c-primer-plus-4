@@ -4,7 +4,7 @@
 #include <ctype.h>
 #define LIMIT 81
 void ToUpper(char *);
-int PuntCount(const char *);
+int PunctCount(const char *);
 
 int main(void)
 {
